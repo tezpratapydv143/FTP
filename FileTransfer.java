@@ -81,7 +81,6 @@ try{
 s=new Socket("Localhost", 10);
 //s=new Socket("13.201.161.138",10);
 dout1=new DataOutputStream(s.getOutputStream());
-////////////////////////
 dout=new DataOutputStream(s.getOutputStream());
 
 }
