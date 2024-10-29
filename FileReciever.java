@@ -35,7 +35,6 @@ try{
 do{
 str=dis.readUTF();
 pw.println(str);
-///////////////////////
 pw.flush();
 
 }while(!str.equals(null));
